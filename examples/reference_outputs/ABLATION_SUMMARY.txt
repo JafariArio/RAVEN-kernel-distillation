@@ -1,0 +1,15 @@
+RAVEN ablation export suite
+Generated: 2026-05-08 00:18:57
+CodeVersion: RAVEN_V1_01
+FinalWinner: BestAccuracy_01
+WinnerPolicy: bestscore
+GroupedCVRequested: 0
+GroupedCVMode: stratified
+GroupedCVStatus: struct
+
+Ablation rows:
+01. BestAccuracy_01 | Ablation=student_other_bucket | Candidate=T01__P48_L1e-06_A0p05_T1_S0_E1 | Acc=97.20% | Teacher=98.00% | Delta=-0.80% | MacroF1=97.21% | Score=0.9431 | Time=0.0883 ms/spec | Mem=0.0007706 MiB/spec
+02. TeacherBaseline | Ablation=teacher_only | Candidate=STEP2_BEST | Acc=NaN% | Teacher=NaN% | Delta=0.00% | MacroF1=NaN% | Score=NaN | Time=NaN ms/spec | Mem=NaN MiB/spec
+
+Step4 finalist ranking:
+01. BestAccuracy_01 | Candidate=T01__P48_L1e-06_A0p05_T1_S0_E1 | Source=BestAccuracy | Score=0.9431 | Acc=97.20% | MacroF1=97.21% | Time=0.0883 ms/spec | Mem=0.0007706 MiB/spec
