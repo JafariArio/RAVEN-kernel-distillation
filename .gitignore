@@ -1,0 +1,30 @@
+# MATLAB temporary/autosave files
+*.asv
+*.m~
+*.autosave
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local run outputs and transient logs
+RAVEN_RUN*/
+BLIND_TEST_*/
+LATEST_ERROR.txt
+ERROR_*.txt
+*.log
+
+# Raw/publication biological data should not be committed
+raw_data/
+publication_data/
+Dataset_A/
+Dataset_B/
+Dataset_C/
+
+# Local packaging artifacts
+*.tmp
+*.bak
+*_TMP/
