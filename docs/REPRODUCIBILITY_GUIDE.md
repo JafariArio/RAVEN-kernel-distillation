@@ -27,7 +27,7 @@ A successful startup should open the RAVEN GUI without missing-file or missing-m
 
 Select:
 
-`examples/synthetic/`
+`examples/synthetic/BugCheck_5Classes_10Spectra/`
 
 The example contains five class files. Each file represents one class and contains 1000 spectral-variable rows with one spectral-axis column followed by 10 synthetic spectra. The complete example therefore contains 5 classes and 50 spectra.
 
