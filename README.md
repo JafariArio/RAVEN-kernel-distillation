@@ -1,5 +1,7 @@
 # RAVEN
 
+<p align="center"><img src="IMG_3820.png" alt="RAVEN logo" width="240"></p>
+
 > **Repository preparation status:** v1.0.0 release preparation is in progress. Do not cite or archive this repository until the v1.0.0 GitHub Release is created.
 
 **RAVEN: Kernel distillation for fast kernel-free spectroscopic bacterial identification**
@@ -71,6 +73,9 @@ RAVEN/
 ```
 
 ## Documentation
+
+**[Download the full illustrated GUI user manual](docs/RAVEN_GUI_User_Manual_v1.0.0.docx)**
+
 
 - `docs/REPRODUCIBILITY_GUIDE.md` — end-to-end reproduction workflow
 - `docs/DATA_FORMAT.md` — accepted spectral-block input format
