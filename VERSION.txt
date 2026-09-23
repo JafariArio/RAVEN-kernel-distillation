@@ -1,0 +1,12 @@
+RAVEN
+Release: v1.0.0
+Publication release
+
+Paper:
+RAVEN: Kernel distillation for fast kernel-free spectroscopic bacterial identification
+
+MATLAB version used for the publication package:
+R2026a
+
+Repository: https://github.com/JafariArio/RAVEN-kernel-distillation
+License: MIT
