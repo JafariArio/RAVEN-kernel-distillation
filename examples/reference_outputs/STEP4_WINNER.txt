@@ -1,0 +1,18 @@
+Step 4 winner
+Selection: BestAccuracy_01
+Winner policy: bestscore
+CandidateID: T01__P48_L1e-06_A0p05_T1_S0_E1
+SourceBucket: BestAccuracy
+RankInBucket: 1
+StudentAcc: 97.20%
+TeacherAcc: 98.00%
+WeightedAcc: 97.20%
+MacroF1: 97.21%
+WeightedF1: 97.21%
+Score: 0.9431
+WallMsPerSpec: 0.0883
+MemMiBPerSpec: 0.0007706
+FeatDimMed: 48
+
+Finalist order after winner sort:
+01. BestAccuracy_01 | Candidate=T01__P48_L1e-06_A0p05_T1_S0_E1 | Score=0.9431 | Acc=97.20% | WeightedAcc=97.20% | WeightedF1=97.21%
