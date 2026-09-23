@@ -31,20 +31,20 @@ The launcher rebuilds `RAVEN_core/RAVEN_V1_01_core.m` from `RAVEN_core/source_mo
 
 ## Quick reproducibility test
 
-A synthetic five-class example is supplied under `examples/synthetic/`.
+A synthetic five-class example is supplied under `examples/synthetic/BugCheck_5Classes_10Spectra/`.
 
-It contains 5 artificial classes × 10 spectra per class in CSV format. The example is for software testing only and is not experimental or biological data.
+It contains 5 artificial classes × 10 spectra per class as Excel spectral-block files. The example is for software testing only and is not experimental or biological data.
 
 Recommended smoke test:
 
 1. Launch `RAVEN_V1_01`.
-2. Select `examples/synthetic/` as the input folder.
+2. Select `examples/synthetic/BugCheck_5Classes_10Spectra/` as the input folder.
 3. Confirm detection of 5 classes and 50 spectra.
 4. Select the **Quick** preset.
 5. Run the pipeline to a writable output folder.
 6. Compare the generated folder structure with `examples/reference_outputs/` and `docs/EXPECTED_OUTPUTS.md`.
 
-The repository includes compact text/CSV representative outputs for structural and reporting reference. Large MAT files, trained model binaries, and publication-scale biological datasets are intentionally excluded.
+The repository includes compact text representative outputs for structural and reporting reference. Large MAT files, trained model binaries, and publication-scale biological datasets are intentionally excluded.
 
 ## Repository structure
 
@@ -79,6 +79,7 @@ RAVEN/
 - `docs/SOFTWARE_ENVIRONMENT.md` — software requirements and dependencies
 - `docs/DATASET_PROVENANCE_AND_LICENSING.md` — source datasets, identifiers, licensing notes, and redistribution policy
 - `docs/USER_MANUAL.md` — concise GUI workflow
+- `docs/RAVEN_GUI_User_Manual_v1.0.0.docx` — full illustrated GUI user manual
 - `docs/GITHUB_ZENODO_WORKFLOW.md` — release and DOI workflow
 
 The journal manuscript and Supporting Information are intentionally **not** included in this software repository.
