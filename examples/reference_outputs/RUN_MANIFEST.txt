@@ -1,0 +1,17 @@
+CodeVersion: RAVEN_V1_01
+SavedAt: 20260508T001858
+RequestedMode: stratified
+EffectiveMode: stratified
+FallbackUsed: 0
+FallbackReason:
+GroupVectorPresent: 0
+GroupVectorValidLength: 0
+GroupVectorHasMissing: 0
+GroupsUsed: 0
+RequiredGroups: 5
+ClassWiseMinGroups: 0
+GroupedSufficientForKFold: 0
+Repeats: 3
+SeedBase: 2468
+ValidationMessage: No group vector loaded.
+FinalSelectionRole: BestAccuracy_01
