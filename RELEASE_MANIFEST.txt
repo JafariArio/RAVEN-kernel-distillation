@@ -1,0 +1,22 @@
+RAVEN v1.0.0 Release Manifest
+
+Release date: 2026-09-24
+Repository: https://github.com/JafariArio/RAVEN-kernel-distillation
+Release tag: v1.0.0
+Source snapshot commit before release manifest/checksums: 1b21a141b08b0d5f1ff219713ab02ebccb6b344b
+MATLAB: R2026a
+License: MIT
+
+Software: RAVEN_v1.0.0/
+Documentation: documentation/
+Synthetic example: example/synthetic/BugCheck_5Classes_10Spectra/
+Synthetic reference outputs: example/synthetic/BugCheck_5Classes_10Spectra/reference_outputs/
+Curated publication results: results/
+
+Tracked files hashed: 537
+Total hashed size: 62.08 MB
+Checksum file: SHA256SUMS.csv
+
+SHA256SUMS.csv and RELEASE_MANIFEST.txt are excluded from the checksum set to avoid self-referential hashes.
+Original third-party biological spectra are not redistributed in this repository.
+Large archival result packages are intended for separate Zenodo deposition.
