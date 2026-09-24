@@ -2,8 +2,6 @@
 
 <p align="center"><img src="RAVEN_v1.0.0/IMG_3820.png" alt="RAVEN logo" width="240"></p>
 
-> **Repository preparation status:** v1.0.0 release preparation is in progress. Do not cite or archive this repository until the v1.0.0 GitHub Release is created.
-
 **RAVEN: Kernel distillation for fast kernel-free spectroscopic bacterial identification**
 
 RAVEN is a MATLAB teacher–student framework for spectroscopic classification. A fold-contained PCA representation is used to train a data-adapted Nyström RBF teacher with a linear multiclass SVM/ECOC head. The teacher's class-score behavior is distilled into an explicit random-feature student with a ridge readout. Final deployed student inference is kernel-free.
