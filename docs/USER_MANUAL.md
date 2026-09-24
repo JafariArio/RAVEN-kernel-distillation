@@ -2,7 +2,7 @@
 
 ## Start the application
 
-Open MATLAB R2026a in the repository root and run:
+Open MATLAB R2026a in the `RAVEN_v1.0.0` software folder and run:
 
 ```matlab
 RAVEN_V1_01
@@ -10,7 +10,7 @@ RAVEN_V1_01
 
 ## Load data
 
-Use **Folder** or **File(s)** to select spectral-block inputs. For the supplied smoke test, choose `examples/synthetic/`. RAVEN should detect five classes and 50 spectra.
+Use **Folder** or **File(s)** to select spectral-block inputs. For the supplied smoke test, choose `examples/synthetic/BugCheck_5Classes_10Spectra/`. RAVEN should detect five classes and 50 spectra.
 
 ## Configure preprocessing and validation
 
