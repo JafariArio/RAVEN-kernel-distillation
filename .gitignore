@@ -20,9 +20,9 @@ ERROR_*.txt
 # Raw/publication biological data should not be committed
 raw_data/
 publication_data/
-Dataset_A/
-Dataset_B/
-Dataset_C/
+/Dataset_A/
+/Dataset_B/
+/Dataset_C/
 
 # Local packaging artifacts
 *.tmp
