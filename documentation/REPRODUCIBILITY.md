@@ -54,7 +54,7 @@ The required smoke-test criterion is successful end-to-end execution, determinis
 
 ## 6. Inspect representative completed outputs
 
-`example/reference_outputs/` contains a compact representative run supplied with the repository.
+`example/synthetic/BugCheck_5Classes_10Spectra/reference_outputs/` contains a compact representative run supplied with the repository.
 
 Its run manifest records stratified validation with 5 folds, 3 repeats, seed base 2468, five classes, and final selection role BestAccuracy_01.
 
