@@ -1,6 +1,6 @@
 # RAVEN
 
-<p align="center"><img src="IMG_3820.png" alt="RAVEN logo" width="240"></p>
+<p align="center"><img src="RAVEN_v1.0.0/IMG_3820.png" alt="RAVEN logo" width="240"></p>
 
 > **Repository preparation status:** v1.0.0 release preparation is in progress. Do not cite or archive this repository until the v1.0.0 GitHub Release is created.
 
@@ -20,16 +20,19 @@ This repository corresponds to the frozen **RAVEN v1.0.0** publication release.
 
 ## Installation
 
+**Complete software package:** [`RAVEN_v1.0.0/`](RAVEN_v1.0.0/)
+
+
 1. Clone or download this repository.
 2. Open MATLAB R2026a.
-3. Change the current directory to the repository root.
+3. Change the current directory to `RAVEN_v1.0.0/`.
 4. Run:
 
 ```matlab
 RAVEN_V1_01
 ```
 
-The launcher rebuilds `RAVEN_core/RAVEN_V1_01_core.m` from `RAVEN_core/source_modules/` when the generated core is missing or older than the editable modules.
+The complete downloadable software is grouped under `RAVEN_v1.0.0/`. The launcher rebuilds `RAVEN_core/RAVEN_V1_01_core.m` from `RAVEN_core/source_modules/` when the generated core is missing or older than the editable modules.
 
 ## Quick reproducibility test
 
@@ -51,25 +54,30 @@ The repository includes compact text representative outputs for structural and r
 ## Repository structure
 
 ```text
-RAVEN/
-├── RAVEN_V1_01.m
-├── build_RAVEN_V1_01_core_from_modules.m
-├── raven_build_teacher_cache.m
-├── raven_eval_teacher_worker.m
-├── raven_eval_student_worker.m
-├── raven_eval_benchmark_worker.m
-├── RAVEN_core/
-│   └── source_modules/
-├── IMG_3820.png
-├── examples/
-│   ├── synthetic/
-│   └── reference_outputs/
+RAVEN-kernel-distillation/
+├── RAVEN_v1.0.0/          # complete downloadable MATLAB software
+│   ├── RAVEN_V1_01.m
+│   ├── build_RAVEN_V1_01_core_from_modules.m
+│   ├── raven_build_teacher_cache.m
+│   ├── raven_eval_teacher_worker.m
+│   ├── raven_eval_student_worker.m
+│   ├── raven_eval_benchmark_worker.m
+│   ├── IMG_3820.png
+│   ├── README.md
+│   ├── README_RAVEN_V1_01.txt
+│   ├── VERSION.txt
+│   ├── LICENSE.txt
+│   └── RAVEN_core/
+│       ├── RAVEN_V1_01_core.m
+│       └── source_modules/
 ├── docs/
+├── examples/
 ├── results/
+├── README.md
 ├── CITATION.cff
+├── AUTHORS.md
 ├── CHANGELOG.md
-├── LICENSE
-└── VERSION.txt
+└── LICENSE
 ```
 
 ## Documentation
