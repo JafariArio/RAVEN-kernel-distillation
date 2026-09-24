@@ -3,6 +3,7 @@ message: "If you use RAVEN in your work, please cite the RAVEN software release 
 title: "RAVEN: Kernel distillation for fast kernel-free spectroscopic bacterial identification"
 type: software
 version: 1.0.0
+date-released: 2026-09-24
 repository-code: "https://github.com/JafariArio/RAVEN-kernel-distillation"
 license: MIT
 authors:
