@@ -45,7 +45,7 @@ It contains five artificial classes with 10 spectra per class. These are synthet
 
 Compact representative outputs are provided under:
 
-`example/reference_outputs/`
+`example/synthetic/BugCheck_5Classes_10Spectra/reference_outputs/`
 
 ## Publication results
 
