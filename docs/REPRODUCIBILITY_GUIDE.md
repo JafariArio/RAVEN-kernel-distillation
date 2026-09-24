@@ -4,20 +4,20 @@
 
 The main launcher is:
 
-`RAVEN_V1_01.m`
+`RAVEN_v1.0.0/RAVEN_V1_01.m`
 
 Editable source modules are in:
 
-`RAVEN_core/source_modules/`
+`RAVEN_v1.0.0/RAVEN_core/source_modules/`
 
-The launcher rebuilds `RAVEN_core/RAVEN_V1_01_core.m` when the generated core is missing or older than the editable source modules.
+The launcher rebuilds `RAVEN_v1.0.0/RAVEN_core/RAVEN_V1_01_core.m` when the generated core is missing or older than the editable source modules.
 
 ## 2. Start RAVEN
 
 In MATLAB R2026a:
 
 ```matlab
-cd('<path-to-cloned-repository>')
+cd('<path-to-cloned-repository>/RAVEN_v1.0.0')
 RAVEN_V1_01
 ```
 
