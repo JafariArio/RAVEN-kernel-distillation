@@ -8,11 +8,14 @@
 
 RAVEN is a MATLAB teacher–student framework for spectroscopic classification. A fold-contained PCA representation is used to train a data-adapted Nyström RBF teacher with a linear multiclass SVM/ECOC head. The teacher's class-score behavior is distilled into an explicit random-feature student with a ridge readout. Final deployed student inference is kernel-free.
 
-## Download and run
+## Repository layout
 
-All files needed to run RAVEN, its documentation, and the synthetic example are grouped in one self-contained folder:
+- **Software:** [`RAVEN_v1.0.0/`](RAVEN_v1.0.0/)
+- **Documentation:** [`documentation/`](documentation/)
+- **Synthetic example and representative outputs:** [`example/`](example/)
+- **Curated publication results:** [`results/`](results/)
 
-**[RAVEN_v1.0.0/](RAVEN_v1.0.0/)**
+## Software
 
 Requirements:
 
@@ -28,40 +31,38 @@ After downloading the repository, open MATLAB in `RAVEN_v1.0.0/` and run:
 RAVEN_V1_01
 ```
 
-## User manual
+## Documentation
 
-**[Download the full illustrated RAVEN User Manual](RAVEN_v1.0.0/docs/RAVEN_User_Manual_v1.0.0.docx)**
+**[Download the full illustrated RAVEN User Manual](documentation/RAVEN_User_Manual_v1.0.0.docx)**
 
-Additional technical documentation is in `RAVEN_v1.0.0/docs/`.
+Technical documentation is available under `documentation/`.
 
 ## Synthetic example
 
 The included software-test dataset is located at:
 
-`RAVEN_v1.0.0/examples/synthetic/BugCheck_5Classes_10Spectra/`
+`example/synthetic/BugCheck_5Classes_10Spectra/`
 
 It contains five artificial classes with 10 spectra per class. These are synthetic software-test data, not experimental or biological measurements.
 
 Compact representative outputs are provided under:
 
-`RAVEN_v1.0.0/examples/reference_outputs/`
+`example/reference_outputs/`
+
+## Publication results
+
+Lightweight publication-facing results for Datasets A, B, and C are organized separately under `results/`.
+
+Large binary model/state files, preprocessed datasets, and original third-party biological spectra are not intended for the GitHub results directory.
 
 ## Repository structure
 
 ```text
 RAVEN-kernel-distillation/
-├── RAVEN_v1.0.0/
-│   ├── RAVEN_V1_01.m
-│   ├── build_RAVEN_V1_01_core_from_modules.m
-│   ├── raven_build_teacher_cache.m
-│   ├── raven_eval_teacher_worker.m
-│   ├── raven_eval_student_worker.m
-│   ├── raven_eval_benchmark_worker.m
-│   ├── IMG_3820.png
-│   ├── VERSION.txt
-│   ├── RAVEN_core/
-│   ├── docs/
-│   └── examples/
+├── RAVEN_v1.0.0/          # runnable MATLAB software
+├── documentation/         # user manual and technical documentation
+├── example/               # synthetic input and representative outputs
+├── results/               # curated lightweight publication results
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
