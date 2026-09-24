@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0 — 2026-09-23
+## v1.0.0 — 2026-09-24
 
 Initial frozen publication release of RAVEN.
 
@@ -13,3 +13,4 @@ Initial frozen publication release of RAVEN.
 - benchmark, timing, memory-proxy, and manifest exports
 - synthetic five-class reproducibility example
 - representative output files and documentation
+- curated publication result exports for Datasets A, B, and C
