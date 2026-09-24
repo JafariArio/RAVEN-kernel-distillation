@@ -72,7 +72,7 @@ The journal manuscript, Supporting Information, and original third-party biologi
 
 ## Citation
 
-Machine-readable citation metadata are provided in `CITATION.cff`. A Zenodo DOI will be added after the immutable `v1.0.0` GitHub release is archived.
+Machine-readable citation metadata are provided in `CITATION.cff`. The frozen RAVEN v1.0.0 release is permanently archived on Zenodo at https://doi.org/10.5281/zenodo.22946891.
 
 ## License
 
