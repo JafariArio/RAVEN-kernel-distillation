@@ -1,13 +1,15 @@
 # RAVEN publication results
 
-This directory is reserved for the curated publication-result packages associated with the RAVEN study.
+This directory contains the curated, lightweight publication-facing outputs associated with the RAVEN study.
 
-Planned structure:
+## Structure
 
 - `Dataset_A/`
 - `Dataset_B/`
 - `Dataset_C/`
 
-The results directory is intentionally separate from `RAVEN_v1.0.0/`, which contains the downloadable software, documentation, and synthetic software-test materials.
+Only derived publication outputs suitable for GitHub should be included here, such as final spreadsheets, CSV/TXT summaries, figures, timing summaries, and locked configuration/manifests.
 
-Original third-party biological spectra should not be placed here. Only RAVEN-generated publication outputs and supporting result files should be included after curation.
+Large MAT caches, preprocessed datasets, blind-model packages containing source/training data, and original third-party biological spectra are excluded from GitHub.
+
+The complete archival result packages will be deposited separately on Zenodo after curation and rights checking.
