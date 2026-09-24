@@ -1,0 +1,5 @@
+RequestedMode: stratified
+EffectiveMode: stratified
+FallbackUsed: 0
+FallbackReason: 
+ValidationMessage: No group vector loaded.

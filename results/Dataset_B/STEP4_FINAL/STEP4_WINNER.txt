@@ -1,0 +1,29 @@
+Step 4 winner
+Selection: BestMemory_02
+Winner policy: bestscore
+CandidateID: T01__P48_L0p0001_A0p1_T5_S0_E1
+SourceBucket: BestMemory
+RankInBucket: 4
+StudentAcc: 99.36%
+TeacherAcc: 99.42%
+WeightedAcc: 99.36%
+MacroF1: 99.36%
+WeightedF1: 99.36%
+Score: 0.9645
+WallMsPerSpec: 0.0094
+MemMiBPerSpec: 0.0008469
+FeatDimMed: 48
+
+Finalist order after winner sort:
+01. BestMemory_02 | Candidate=T01__P48_L0p0001_A0p1_T5_S0_E1 | Score=0.9645 | Acc=99.36% | WeightedAcc=99.36% | WeightedF1=99.36%
+02. BestMemory_03 | Candidate=T01__P48_L0p0001_A0p2_T5_S0_E1 | Score=0.9644 | Acc=99.36% | WeightedAcc=99.36% | WeightedF1=99.36%
+03. BestMemory_01 | Candidate=T01__P48_L1e-06_A0p2_T1_S0_E1 | Score=0.9643 | Acc=99.36% | WeightedAcc=99.36% | WeightedF1=99.36%
+04. BestSpeed_03 | Candidate=T01__P48_L0p01_A0p1_T2_S0_E1 | Score=0.9640 | Acc=99.33% | WeightedAcc=99.33% | WeightedF1=99.33%
+05. BestScore_01 | Candidate=T01__P48_L0p0001_A0p05_T5_S0p25_E1 | Score=0.9637 | Acc=99.40% | WeightedAcc=99.40% | WeightedF1=99.40%
+06. BestSpeed_01 | Candidate=T01__P48_L0p0001_A0p05_T1_S0_E1 | Score=0.9636 | Acc=99.36% | WeightedAcc=99.36% | WeightedF1=99.36%
+07. BestScore_02 | Candidate=T01__P48_L0p0001_A0p2_T5_S0p25_E1 | Score=0.9635 | Acc=99.40% | WeightedAcc=99.40% | WeightedF1=99.40%
+08. BestSpeed_02 | Candidate=T01__P48_L0p0001_A0p05_T5_S0_E1 | Score=0.9634 | Acc=99.36% | WeightedAcc=99.36% | WeightedF1=99.36%
+09. BestScore_03 | Candidate=T01__P48_L0p0001_A0p05_T2_S0p25_E1 | Score=0.9630 | Acc=99.40% | WeightedAcc=99.40% | WeightedF1=99.40%
+10. BestAccuracy_02 | Candidate=T01__P128_L1e-06_A0p1_T5_S0_E1 | Score=0.9626 | Acc=99.43% | WeightedAcc=99.43% | WeightedF1=99.43%
+11. BestAccuracy_01 | Candidate=T01__P128_L1e-06_A0p2_T2_S0_E1 | Score=0.9614 | Acc=99.43% | WeightedAcc=99.43% | WeightedF1=99.43%
+12. BestAccuracy_03 | Candidate=T01__P128_L0p0001_A0p2_T2_S0_E1 | Score=0.9607 | Acc=99.43% | WeightedAcc=99.43% | WeightedF1=99.43%

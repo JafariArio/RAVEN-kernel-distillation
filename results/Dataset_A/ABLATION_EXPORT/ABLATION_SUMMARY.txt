@@ -1,0 +1,37 @@
+RAVEN ablation export suite
+Generated: 2026-03-21 17:05:12
+CodeVersion: RAVEN_v1_15
+FinalWinner: BestScore_01
+WinnerPolicy: bestscore
+GroupedCVRequested: 0
+GroupedCVMode: grouped
+GroupedCVStatus: struct
+
+Ablation rows:
+01. BestScore_01 | Ablation=student_other_bucket | Candidate=T01__P360_L1e-06_A0p01_T8_S0_E1 | Acc=90.40%% | Teacher=89.51%% | Delta=0.90%% | MacroF1=90.15%% | Score=0.8903 | Time=0.1578 ms/spec | Mem=0.005722 MiB/spec
+02. TeacherBaseline | Ablation=teacher_only | Candidate=STEP2_BEST | Acc=NaN%% | Teacher=NaN%% | Delta=0.00%% | MacroF1=NaN%% | Score=NaN | Time=NaN ms/spec | Mem=NaN MiB/spec
+03. BestScore_03 | Ablation=student_other_bucket | Candidate=T01__P360_L1e-06_A0p05_T5_S0_E1 | Acc=90.40%% | Teacher=89.51%% | Delta=0.90%% | MacroF1=90.15%% | Score=0.8902 | Time=0.1601 ms/spec | Mem=0.005722 MiB/spec
+04. BestScore_02 | Ablation=student_other_bucket | Candidate=T01__P360_L1e-06_A0p2_T5_S0_E1 | Acc=90.40%% | Teacher=89.51%% | Delta=0.90%% | MacroF1=90.15%% | Score=0.8901 | Time=0.1635 ms/spec | Mem=0.005722 MiB/spec
+05. BestAccuracy_01 | Ablation=student_other_bucket | Candidate=T01__P360_L0p0001_A0p2_T10_S0_E3 | Acc=90.58%% | Teacher=89.51%% | Delta=1.07%% | MacroF1=90.17%% | Score=0.8792 | Time=0.5030 ms/spec | Mem=0.01717 MiB/spec
+06. BestAccuracy_02 | Ablation=student_other_bucket | Candidate=T01__P360_L0p0001_A0p05_T1_S0_E3 | Acc=90.58%% | Teacher=89.51%% | Delta=1.07%% | MacroF1=90.17%% | Score=0.8792 | Time=0.5035 ms/spec | Mem=0.01717 MiB/spec
+07. BestAccuracy_03 | Ablation=student_other_bucket | Candidate=T01__P360_L0p0001_A0p05_T5_S0_E3 | Acc=90.58%% | Teacher=89.51%% | Delta=1.07%% | MacroF1=90.17%% | Score=0.8791 | Time=0.5067 ms/spec | Mem=0.01717 MiB/spec
+08. BestMemory_03 | Ablation=student_other_bucket | Candidate=T01__P128_L1e-06_A0p05_T5_S0_E1 | Acc=87.99%% | Teacher=89.51%% | Delta=-1.51%% | MacroF1=87.22%% | Score=0.8744 | Time=0.0323 ms/spec | Mem=0.002182 MiB/spec
+09. BestMemory_01 | Ablation=student_other_bucket | Candidate=T01__P128_L1e-06_A0p01_T1_S0_E1 | Acc=87.99%% | Teacher=89.51%% | Delta=-1.51%% | MacroF1=87.22%% | Score=0.8744 | Time=0.0325 ms/spec | Mem=0.002182 MiB/spec
+10. BestMemory_02 | Ablation=student_other_bucket | Candidate=T01__P128_L1e-06_A0p01_T2_S0_E1 | Acc=87.99%% | Teacher=89.51%% | Delta=-1.51%% | MacroF1=87.22%% | Score=0.8743 | Time=0.0342 ms/spec | Mem=0.002182 MiB/spec
+11. BestSpeed_03 | Ablation=student_other_bucket | Candidate=T01__P128_L1e-06_A0p05_T10_S0_E1 | Acc=87.99%% | Teacher=89.51%% | Delta=-1.51%% | MacroF1=87.22%% | Score=0.8739 | Time=0.0409 ms/spec | Mem=0.002182 MiB/spec
+12. BestSpeed_01 | Ablation=student_other_bucket | Candidate=T01__P128_L1e-06_A0p1_T1_S0_E1 | Acc=88.00%% | Teacher=89.51%% | Delta=-1.51%% | MacroF1=87.22%% | Score=0.8730 | Time=0.0577 ms/spec | Mem=0.002182 MiB/spec
+13. BestSpeed_02 | Ablation=student_other_bucket | Candidate=T01__P128_L1e-06_A0p05_T8_S0_E1 | Acc=87.99%% | Teacher=89.51%% | Delta=-1.51%% | MacroF1=87.22%% | Score=0.8728 | Time=0.0613 ms/spec | Mem=0.002182 MiB/spec
+
+Step4 finalist ranking:
+01. BestScore_01 | Candidate=T01__P360_L1e-06_A0p01_T8_S0_E1 | Source=BestScore | Score=0.8903 | Acc=90.40%% | MacroF1=90.15%% | Time=0.1578 ms/spec | Mem=0.005722 MiB/spec
+02. BestScore_03 | Candidate=T01__P360_L1e-06_A0p05_T5_S0_E1 | Source=BestScore | Score=0.8902 | Acc=90.40%% | MacroF1=90.15%% | Time=0.1601 ms/spec | Mem=0.005722 MiB/spec
+03. BestScore_02 | Candidate=T01__P360_L1e-06_A0p2_T5_S0_E1 | Source=BestScore | Score=0.8901 | Acc=90.40%% | MacroF1=90.15%% | Time=0.1635 ms/spec | Mem=0.005722 MiB/spec
+04. BestAccuracy_01 | Candidate=T01__P360_L0p0001_A0p2_T10_S0_E3 | Source=BestAccuracy | Score=0.8792 | Acc=90.58%% | MacroF1=90.17%% | Time=0.5030 ms/spec | Mem=0.01717 MiB/spec
+05. BestAccuracy_02 | Candidate=T01__P360_L0p0001_A0p05_T1_S0_E3 | Source=BestAccuracy | Score=0.8792 | Acc=90.58%% | MacroF1=90.17%% | Time=0.5035 ms/spec | Mem=0.01717 MiB/spec
+06. BestAccuracy_03 | Candidate=T01__P360_L0p0001_A0p05_T5_S0_E3 | Source=BestAccuracy | Score=0.8791 | Acc=90.58%% | MacroF1=90.17%% | Time=0.5067 ms/spec | Mem=0.01717 MiB/spec
+07. BestMemory_03 | Candidate=T01__P128_L1e-06_A0p05_T5_S0_E1 | Source=BestMemory | Score=0.8744 | Acc=87.99%% | MacroF1=87.22%% | Time=0.0323 ms/spec | Mem=0.002182 MiB/spec
+08. BestMemory_01 | Candidate=T01__P128_L1e-06_A0p01_T1_S0_E1 | Source=BestMemory | Score=0.8744 | Acc=87.99%% | MacroF1=87.22%% | Time=0.0325 ms/spec | Mem=0.002182 MiB/spec
+09. BestMemory_02 | Candidate=T01__P128_L1e-06_A0p01_T2_S0_E1 | Source=BestMemory | Score=0.8743 | Acc=87.99%% | MacroF1=87.22%% | Time=0.0342 ms/spec | Mem=0.002182 MiB/spec
+10. BestSpeed_03 | Candidate=T01__P128_L1e-06_A0p05_T10_S0_E1 | Source=BestSpeed | Score=0.8739 | Acc=87.99%% | MacroF1=87.22%% | Time=0.0409 ms/spec | Mem=0.002182 MiB/spec
+11. BestSpeed_01 | Candidate=T01__P128_L1e-06_A0p1_T1_S0_E1 | Source=BestSpeed | Score=0.8730 | Acc=88.00%% | MacroF1=87.22%% | Time=0.0577 ms/spec | Mem=0.002182 MiB/spec
+12. BestSpeed_02 | Candidate=T01__P128_L1e-06_A0p05_T8_S0_E1 | Source=BestSpeed | Score=0.8728 | Acc=87.99%% | MacroF1=87.22%% | Time=0.0613 ms/spec | Mem=0.002182 MiB/spec

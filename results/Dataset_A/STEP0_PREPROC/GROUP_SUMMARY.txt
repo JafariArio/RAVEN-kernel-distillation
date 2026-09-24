@@ -1,0 +1,5 @@
+RequestedMode: grouped
+EffectiveMode: stratified
+FallbackUsed: 1
+FallbackReason: No valid group vector loaded.
+ValidationMessage: Grouped CV requested but no valid group vector was loaded; fallback to stratified CV.

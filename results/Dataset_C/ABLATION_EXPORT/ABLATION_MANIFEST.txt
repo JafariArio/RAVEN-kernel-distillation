@@ -1,0 +1,13 @@
+RAVEN structured ablation export
+Generated: 2026-03-23 02:40:26
+CodeVersion: RAVEN_v1_15
+OutputDir: D:\Raven\Database 5\RAVEN_RUN_Lab block\ABLATION_EXPORT
+FinalWinner: BestMemory_02
+Files:
+  - ABLATION_SUMMARY.xlsx
+  - ABLATION_SUMMARY.txt
+  - ABLATION_MANIFEST.txt
+  - ABLATION_EXPORT.mat
+  - ABLATION_SELECTION_<role>.xlsx
+Rows: 13
+TopRow: BestMemory_02 | T01__P48_L1e-06_A0p05_T5_S0_E1 | Acc=0.9957 | Score=0.9288

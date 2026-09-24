@@ -1,0 +1,8 @@
+RAVEN timing report
+Total wall time: 7909.642730 s
+
+step0_load_preprocess : 74.756218 s (0.95%%)
+step1_search_embedding : 97.908961 s (1.24%%)
+step2_search_localization : 440.732883 s (5.60%%)
+step3_search_local_approx : 6678.105426 s (84.86%%)
+step4_final_confirmation : 577.592855 s (7.34%%)

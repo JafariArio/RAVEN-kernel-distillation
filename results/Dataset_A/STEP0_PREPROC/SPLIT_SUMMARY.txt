@@ -1,0 +1,17 @@
+RequestedMode: grouped
+EffectiveMode: stratified
+FallbackUsed: 1
+FallbackReason: No valid group vector loaded.
+GroupVectorPresent: 0
+GroupVectorValidLength: 0
+GroupVectorHasMissing: 0
+GroupsUsed: 0
+RequiredGroups: 5
+ClassWiseMinGroups: 0
+GroupedSufficientForKFold: 0
+ClassWiseGroupedSufficient: 0
+NumClasses: 30
+Folds: 5
+Repeats: 5
+SeedBase: 2468
+ValidationMessage: Grouped CV requested but no valid group vector was loaded; fallback to stratified CV.

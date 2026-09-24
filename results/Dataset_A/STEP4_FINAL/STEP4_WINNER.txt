@@ -1,0 +1,29 @@
+Step 4 winner
+Selection: BestScore_01
+Winner policy: bestscore
+CandidateID: T01__P360_L1e-06_A0p01_T8_S0_E1
+SourceBucket: BestScore
+RankInBucket: 1
+StudentAcc: 90.40%
+TeacherAcc: 89.51%
+WeightedAcc: 90.40%
+MacroF1: 90.15%
+WeightedF1: 90.15%
+Score: 0.8903
+WallMsPerSpec: 0.1578
+MemMiBPerSpec: 0.005722
+FeatDimMed: 360
+
+Finalist order after winner sort:
+01. BestScore_01 | Candidate=T01__P360_L1e-06_A0p01_T8_S0_E1 | Score=0.8903 | Acc=90.40% | WeightedAcc=90.40% | WeightedF1=90.15%
+02. BestScore_03 | Candidate=T01__P360_L1e-06_A0p05_T5_S0_E1 | Score=0.8902 | Acc=90.40% | WeightedAcc=90.40% | WeightedF1=90.15%
+03. BestScore_02 | Candidate=T01__P360_L1e-06_A0p2_T5_S0_E1 | Score=0.8901 | Acc=90.40% | WeightedAcc=90.40% | WeightedF1=90.15%
+04. BestAccuracy_01 | Candidate=T01__P360_L0p0001_A0p2_T10_S0_E3 | Score=0.8792 | Acc=90.58% | WeightedAcc=90.58% | WeightedF1=90.17%
+05. BestAccuracy_02 | Candidate=T01__P360_L0p0001_A0p05_T1_S0_E3 | Score=0.8792 | Acc=90.58% | WeightedAcc=90.58% | WeightedF1=90.17%
+06. BestAccuracy_03 | Candidate=T01__P360_L0p0001_A0p05_T5_S0_E3 | Score=0.8791 | Acc=90.58% | WeightedAcc=90.58% | WeightedF1=90.17%
+07. BestMemory_03 | Candidate=T01__P128_L1e-06_A0p05_T5_S0_E1 | Score=0.8744 | Acc=87.99% | WeightedAcc=87.99% | WeightedF1=87.22%
+08. BestMemory_01 | Candidate=T01__P128_L1e-06_A0p01_T1_S0_E1 | Score=0.8744 | Acc=87.99% | WeightedAcc=87.99% | WeightedF1=87.22%
+09. BestMemory_02 | Candidate=T01__P128_L1e-06_A0p01_T2_S0_E1 | Score=0.8743 | Acc=87.99% | WeightedAcc=87.99% | WeightedF1=87.22%
+10. BestSpeed_03 | Candidate=T01__P128_L1e-06_A0p05_T10_S0_E1 | Score=0.8739 | Acc=87.99% | WeightedAcc=87.99% | WeightedF1=87.22%
+11. BestSpeed_01 | Candidate=T01__P128_L1e-06_A0p1_T1_S0_E1 | Score=0.8730 | Acc=88.00% | WeightedAcc=88.00% | WeightedF1=87.22%
+12. BestSpeed_02 | Candidate=T01__P128_L1e-06_A0p05_T8_S0_E1 | Score=0.8728 | Acc=87.99% | WeightedAcc=87.99% | WeightedF1=87.22%

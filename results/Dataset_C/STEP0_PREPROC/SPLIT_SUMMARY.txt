@@ -1,0 +1,17 @@
+RequestedMode: stratified
+EffectiveMode: stratified
+FallbackUsed: 0
+FallbackReason: 
+GroupVectorPresent: 0
+GroupVectorValidLength: 0
+GroupVectorHasMissing: 0
+GroupsUsed: 0
+RequiredGroups: 5
+ClassWiseMinGroups: 0
+GroupedSufficientForKFold: 0
+ClassWiseGroupedSufficient: 0
+NumClasses: 6
+Folds: 5
+Repeats: 5
+SeedBase: 2468
+ValidationMessage: No group vector loaded.

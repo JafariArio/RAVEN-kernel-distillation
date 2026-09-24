@@ -1,0 +1,7 @@
+Benchmark summary
+Generated: 2026-03-31 12:27:17
+
+PCA_LINSVM | Source=Benchmark | kPC=20 | Acc=0.9944 | WeightedAcc=0.9944 | MacroF1=0.9944 | WeightedF1=0.9944 | Score=122.7221 | PredMs/spec=0.0163 | MemMiB/spec=0.0008
+PCA_LDA | Source=Benchmark | kPC=20 | Acc=0.9937 | WeightedAcc=0.9937 | MacroF1=0.9937 | WeightedF1=0.9937 | Score=122.6674 | PredMs/spec=0.0213 | MemMiB/spec=0.0010
+PCA_RF | Source=Benchmark | kPC=20 | Acc=0.9870 | WeightedAcc=0.9870 | MacroF1=0.9871 | WeightedF1=0.9871 | Score=121.6802 | PredMs/spec=0.2306 | MemMiB/spec=0.0045
+RAVEN_FINAL | Source=RAVEN | kPC=20 | Acc=NaN | WeightedAcc=NaN | MacroF1=NaN | WeightedF1=NaN | Score=NaN | PredMs/spec=NaN | MemMiB/spec=NaN

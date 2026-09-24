@@ -1,0 +1,25 @@
+RAVEN structured benchmark export
+Generated: 2026-03-31 12:27:17
+CodeVersion: RAVEN_v1_15
+OutputDir: D:\Raven\Raven-Draft\Dataset B\RAVEN_RUN_01\BENCHMARKS
+MethodsRequested: PCA_LINSVM, PCA_LDA, PCA_RF
+kPC: 20
+OuterFolds: 5
+Repeats: 3
+GroupedCVRequested: 0
+GroupedCVMode: stratified
+NRows: 4
+Files:
+  - BENCHMARK_RESULTS.xlsx
+  - BENCHMARK_SUMMARY.txt
+  - BENCHMARK_MANIFEST.txt
+  - BENCHMARK_EXPORT.mat
+  - BENCHMARK_METHOD_<method>.xlsx
+
+RankingOrder: Source asc, Score desc, Acc desc, MacroF1 desc, PredictMsPerSpec asc
+
+TopRows:
+  1) PCA_LINSVM | Source=Benchmark | Acc=0.9944 | MacroF1=0.9944 | Score=122.7221 | PredMs/spec=0.0163 | MemMiB/spec=0.0008
+  2) PCA_LDA | Source=Benchmark | Acc=0.9937 | MacroF1=0.9937 | Score=122.6674 | PredMs/spec=0.0213 | MemMiB/spec=0.0010
+  3) PCA_RF | Source=Benchmark | Acc=0.9870 | MacroF1=0.9871 | Score=121.6802 | PredMs/spec=0.2306 | MemMiB/spec=0.0045
+  4) RAVEN_FINAL | Source=RAVEN | Acc=NaN | MacroF1=NaN | Score=NaN | PredMs/spec=NaN | MemMiB/spec=NaN

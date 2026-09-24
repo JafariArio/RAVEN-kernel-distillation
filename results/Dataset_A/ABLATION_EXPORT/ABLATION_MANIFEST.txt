@@ -1,0 +1,13 @@
+RAVEN structured ablation export
+Generated: 2026-03-21 17:05:12
+CodeVersion: RAVEN_v1_15
+OutputDir: D:\Raven\data series 2\RAVEN_RUN_Final4\ABLATION_EXPORT
+FinalWinner: BestScore_01
+Files:
+  - ABLATION_SUMMARY.xlsx
+  - ABLATION_SUMMARY.txt
+  - ABLATION_MANIFEST.txt
+  - ABLATION_EXPORT.mat
+  - ABLATION_SELECTION_<role>.xlsx
+Rows: 13
+TopRow: BestScore_01 | T01__P360_L1e-06_A0p01_T8_S0_E1 | Acc=0.9040 | Score=0.8903

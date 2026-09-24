@@ -1,0 +1,16 @@
+Step 4 finalists
+Winner policy: bestscore
+Top finalists per bucket: 3
+
+01. BestScore_01 | BestScore | Candidate=T01__P360_L1e-06_A0p01_T8_S0_E1 | Acc=90.40% | WeightedAcc=90.40% | MacroF1=90.15% | WeightedF1=90.15% | Score=0.8903 | Time=0.1578 ms/spec | Mem=0.005722 MiB/spec
+02. BestScore_03 | BestScore | Candidate=T01__P360_L1e-06_A0p05_T5_S0_E1 | Acc=90.40% | WeightedAcc=90.40% | MacroF1=90.15% | WeightedF1=90.15% | Score=0.8902 | Time=0.1601 ms/spec | Mem=0.005722 MiB/spec
+03. BestScore_02 | BestScore | Candidate=T01__P360_L1e-06_A0p2_T5_S0_E1 | Acc=90.40% | WeightedAcc=90.40% | MacroF1=90.15% | WeightedF1=90.15% | Score=0.8901 | Time=0.1635 ms/spec | Mem=0.005722 MiB/spec
+04. BestAccuracy_01 | BestAccuracy | Candidate=T01__P360_L0p0001_A0p2_T10_S0_E3 | Acc=90.58% | WeightedAcc=90.58% | MacroF1=90.17% | WeightedF1=90.17% | Score=0.8792 | Time=0.5030 ms/spec | Mem=0.01717 MiB/spec
+05. BestAccuracy_02 | BestAccuracy | Candidate=T01__P360_L0p0001_A0p05_T1_S0_E3 | Acc=90.58% | WeightedAcc=90.58% | MacroF1=90.17% | WeightedF1=90.17% | Score=0.8792 | Time=0.5035 ms/spec | Mem=0.01717 MiB/spec
+06. BestAccuracy_03 | BestAccuracy | Candidate=T01__P360_L0p0001_A0p05_T5_S0_E3 | Acc=90.58% | WeightedAcc=90.58% | MacroF1=90.17% | WeightedF1=90.17% | Score=0.8791 | Time=0.5067 ms/spec | Mem=0.01717 MiB/spec
+07. BestMemory_03 | BestMemory | Candidate=T01__P128_L1e-06_A0p05_T5_S0_E1 | Acc=87.99% | WeightedAcc=87.99% | MacroF1=87.22% | WeightedF1=87.22% | Score=0.8744 | Time=0.0323 ms/spec | Mem=0.002182 MiB/spec
+08. BestMemory_01 | BestMemory | Candidate=T01__P128_L1e-06_A0p01_T1_S0_E1 | Acc=87.99% | WeightedAcc=87.99% | MacroF1=87.22% | WeightedF1=87.22% | Score=0.8744 | Time=0.0325 ms/spec | Mem=0.002182 MiB/spec
+09. BestMemory_02 | BestMemory | Candidate=T01__P128_L1e-06_A0p01_T2_S0_E1 | Acc=87.99% | WeightedAcc=87.99% | MacroF1=87.22% | WeightedF1=87.22% | Score=0.8743 | Time=0.0342 ms/spec | Mem=0.002182 MiB/spec
+10. BestSpeed_03 | BestSpeed | Candidate=T01__P128_L1e-06_A0p05_T10_S0_E1 | Acc=87.99% | WeightedAcc=87.99% | MacroF1=87.22% | WeightedF1=87.22% | Score=0.8739 | Time=0.0409 ms/spec | Mem=0.002182 MiB/spec
+11. BestSpeed_01 | BestSpeed | Candidate=T01__P128_L1e-06_A0p1_T1_S0_E1 | Acc=88.00% | WeightedAcc=88.00% | MacroF1=87.22% | WeightedF1=87.22% | Score=0.8730 | Time=0.0577 ms/spec | Mem=0.002182 MiB/spec
+12. BestSpeed_02 | BestSpeed | Candidate=T01__P128_L1e-06_A0p05_T8_S0_E1 | Acc=87.99% | WeightedAcc=87.99% | MacroF1=87.22% | WeightedF1=87.22% | Score=0.8728 | Time=0.0613 ms/spec | Mem=0.002182 MiB/spec
