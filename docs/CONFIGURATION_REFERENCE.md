@@ -2,7 +2,7 @@
 
 The canonical configuration is defined in:
 
-`RAVEN_core/source_modules/01_default_config.m`
+`RAVEN_v1.0.0/RAVEN_core/source_modules/01_default_config.m`
 
 This document is a convenience summary only. The source module is authoritative.
 
