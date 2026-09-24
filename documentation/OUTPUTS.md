@@ -51,6 +51,6 @@ Typical files include `FINAL_RESULTS.xlsx`, `FINAL_RESULTS_SUMMARY.mat`, `STEP4_
 
 A compact representative output set is included at:
 
-`example/reference_outputs/`
+`example/synthetic/BugCheck_5Classes_10Spectra/reference_outputs/`
 
 Use it to check file naming, folder organization, and report structure. It is a precomputed representative run and should not be treated as the exact numerical output of the included synthetic smoke-test input.
