@@ -1,6 +1,6 @@
 # RAVEN v1.0.0
 
-This directory is the self-contained RAVEN MATLAB package.
+This directory contains the runnable RAVEN MATLAB software package.
 
 ## Requirements
 
@@ -30,20 +30,11 @@ Keep the folder structure unchanged. The launcher expects `RAVEN_core/` and the 
 - `raven_eval_benchmark_worker.m` — benchmark worker
 - `IMG_3820.png` — GUI image asset
 - `RAVEN_core/` — generated core and 15 source modules
-- `docs/` — user manual and technical documentation
-- `examples/` — synthetic test data and representative outputs
 - `VERSION.txt` — software version
 
-The repository-level MIT license is in `../LICENSE`.
+Repository-level supporting materials are kept separately:
 
-## User manual
-
-`docs/RAVEN_User_Manual_v1.0.0.docx`
-
-## Synthetic smoke test
-
-Use:
-
-`examples/synthetic/BugCheck_5Classes_10Spectra/`
-
-The example contains five synthetic classes with 10 spectra per class.
+- User manual and technical documentation: `../documentation/`
+- Synthetic example and representative outputs: `../example/`
+- Curated publication results: `../results/`
+- MIT license: `../LICENSE`
