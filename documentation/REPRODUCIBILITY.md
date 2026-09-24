@@ -27,7 +27,7 @@ A successful startup should open the RAVEN GUI without missing-file or missing-m
 
 Select:
 
-`examples/synthetic/BugCheck_5Classes_10Spectra/`
+`example/synthetic/BugCheck_5Classes_10Spectra/`
 
 The example contains five class files. Each file represents one class and contains 1000 spectral-variable rows with one spectral-axis column followed by 10 synthetic spectra. The complete example therefore contains 5 classes and 50 spectra.
 
@@ -48,13 +48,13 @@ The Quick preset reduces cross-validation repeats and search sizes to provide a 
 
 ## 5. Confirm successful completion
 
-A successful complete run should create staged output folders corresponding to preprocessing, embedding/PCA selection, teacher search, student search/final confirmation, figures, manifests, and timing records. See `EXPECTED_OUTPUTS.md`.
+A successful complete run should create staged output folders corresponding to preprocessing, embedding/PCA selection, teacher search, student search/final confirmation, figures, manifests, and timing records. See `OUTPUTS.md`.
 
 The required smoke-test criterion is successful end-to-end execution, deterministic configuration recording, and generation of the documented output structure.
 
 ## 6. Inspect representative completed outputs
 
-`examples/reference_outputs/` contains a compact representative run supplied with the repository.
+`example/reference_outputs/` contains a compact representative run supplied with the repository.
 
 Its run manifest records stratified validation with 5 folds, 3 repeats, seed base 2468, five classes, and final selection role BestAccuracy_01.
 
