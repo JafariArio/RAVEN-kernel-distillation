@@ -1,12 +1,12 @@
 # RAVEN v1.0.0
 
-This folder is the self-contained MATLAB software package for **RAVEN: Kernel distillation for fast kernel-free spectroscopic bacterial identification**.
+This directory is the self-contained RAVEN MATLAB package.
 
 ## Requirements
 
 - MATLAB R2026a
 - Statistics and Machine Learning Toolbox
-- Parallel Computing Toolbox is optional
+- Parallel Computing Toolbox optional
 - Windows 10/11 tested
 - GPU not required
 
@@ -18,9 +18,9 @@ Open MATLAB, change the current folder to this `RAVEN_v1.0.0` directory, and run
 RAVEN_V1_01
 ```
 
-Keep the complete folder structure unchanged. In particular, the launcher expects the internal `RAVEN_core/` directory to remain beside `RAVEN_V1_01.m`.
+Keep the folder structure unchanged. The launcher expects `RAVEN_core/` and the worker files to remain beside `RAVEN_V1_01.m`.
 
-## Package contents
+## Contents
 
 - `RAVEN_V1_01.m` — launcher
 - `build_RAVEN_V1_01_core_from_modules.m` — core builder
@@ -29,10 +29,21 @@ Keep the complete folder structure unchanged. In particular, the launcher expect
 - `raven_eval_student_worker.m` — student evaluation worker
 - `raven_eval_benchmark_worker.m` — benchmark worker
 - `IMG_3820.png` — GUI image asset
-- `RAVEN_core/RAVEN_V1_01_core.m` — generated runnable core
-- `RAVEN_core/source_modules/` — 15 modular source files
-- `README_RAVEN_V1_01.txt` — original package launch note
-- `VERSION.txt` — release version information
-- `LICENSE.txt` — MIT License
+- `RAVEN_core/` — generated core and 15 source modules
+- `docs/` — user manual and technical documentation
+- `examples/` — synthetic test data and representative outputs
+- `VERSION.txt` — software version
 
-Do not move individual MATLAB files out of this folder when running the software.
+The repository-level MIT license is in `../LICENSE`.
+
+## User manual
+
+`docs/RAVEN_User_Manual_v1.0.0.docx`
+
+## Synthetic smoke test
+
+Use:
+
+`examples/synthetic/BugCheck_5Classes_10Spectra/`
+
+The example contains five synthetic classes with 10 spectra per class.
